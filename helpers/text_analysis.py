@@ -4,6 +4,8 @@ import plotly.plotly as py
 import plotly.graph_objs as go
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from sklearn.metrics.pairwise import cosine_similarity
+
 
 def get_tokens_and_frequency(token_list):
     """obtain word frequecy from pandas dataframe column of lists"""
@@ -107,3 +109,37 @@ def plot_word_cloud(text):
     plt.imshow(word_cloud, interpolation='bilinear')
     plt.axis("off")
     plt.show()
+
+def similarity(text,doc,matrix):
+	#cosine_similarity()
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
