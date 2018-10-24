@@ -110,8 +110,8 @@ def plot_word_cloud(text):
     plt.axis("off")
     plt.show()
 
-def similarity(text,doc,matrix):
-	#cosine_similarity()
+
+	
 	
 	
 	
